@@ -1,5 +1,6 @@
-all: main.o hotel.o room.o
-	g++ main.o hotel.o room.o -o hotel_management_system
+all: main.o hotel.o room
+	g++ main.o hotel.o room.o -o hotel_management_system 
+
 
 main.o: src/main.cpp
 	g++ -c src/main.cpp
