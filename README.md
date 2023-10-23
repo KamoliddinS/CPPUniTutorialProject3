@@ -25,9 +25,16 @@ This is a basic C++ application designed to demonstrate the core concepts of C++
         ```bash
         make
         ```
+    >**note** Windows users 
+    ```bash
+    make -f WMakefile
+    ```
+
     2. Or, you can use CMake to compile the project:
         ```bash
-        cmake .
+        mkdir build
+        cd build
+        cmake ..
         make
         ```
 
